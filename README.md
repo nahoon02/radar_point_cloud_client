@@ -57,10 +57,10 @@
 
         """ uncommnet this two lines when this file is executed in [windows] command line"""
         #sys.path.insert(0, 'c:/python39_env/lib/site-packages') <- 자신의 경로를 확인하자
-        #sys.path.append('d:/projects/radar_point_cloud_client') <- 자신의 경로를 확인하자
+        #sys.path.append('d:/radar_point_cloud_client') <- 자신의 경로를 확인하자
 
         위의 두 행의 주석을 제거
 
         (2) >cd d:
-        (3) >cd projects/radar_point_cloud_client/main
+        (3) >cd radar_point_cloud_client/main
         (4) python3.9 http_client.py           

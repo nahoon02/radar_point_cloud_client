@@ -2,12 +2,12 @@ import os
 import sys
 
 """ uncommnet this two lines when this file is executed in [windows] command line"""
-#sys.path.insert(0, 'c:/python37_env/lib/site-packages')
-#sys.path.append('d:/projects/radar_point_cloud_client')
+#sys.path.insert(0, 'c:/python39_env/lib/site-packages')
+#sys.path.append('d:/radar_point_cloud_client')
 
 """ uncommnet this when this lines when this file is executed in [linux] command line"""
 #sys.path.insert(0, os.path.expanduser('~/python39_env/lib/python3.9/site-packages'))
-#sys.path.append(os.path.expanduser('~/projects/radar_point_cloud_client'))
+#sys.path.append(os.path.expanduser('~/radar_point_cloud_client'))
 
 import requests
 import pandas as pd
