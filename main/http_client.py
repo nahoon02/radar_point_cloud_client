@@ -126,7 +126,7 @@ if __name__ == '__main__':
     # dataset file for linux
     #dataset_file_path = os.path.expanduser('~/projects/radar_point_cloud_client/dataset/test_460.csv')
     # dataset file for windows
-    dataset_file_path = 'd:/projects/radar_point_cloud_client/dataset/test.csv'
+    dataset_file_path = 'd:/projects/radar_point_cloud_client/dataset/test_460.csv'
 
     main(url_post, dataset_file_path)
 
